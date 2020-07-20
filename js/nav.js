@@ -6,7 +6,6 @@ function active(element){
     }
 }
 function notactive(element){
-    //console.log(element.innerHTML)
     var content = element.innerHTML;
     var end = content.slice(content.length-4,content.length);
     if(end == '<hr>'){
@@ -14,10 +13,8 @@ function notactive(element){
     }
 }
 var navElements = document.getElementsByTagName('nav')[0].getElementsByTagName('a');
-//console.log(navElements);
 for(var i=0; i<navElements.length; i++){
     navElements[i].addEventListener("click", function(event){
-        //console.log(event.srcElement);
         active(event.srcElement);
         for(var j=0; j<navElements.length; j++){
             var ele = navElements[j].getElementsByTagName('li')[0];
@@ -29,4 +26,14 @@ for(var i=0; i<navElements.length; i++){
             }
         }
     });
+}
+
+window.onscroll = function(){
+    var navbar = document.getElementsByTagName('nav')[0];
+    if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
+        navbar.classList.add('navbar');
+    }
+    else{
+        navbar.classList.remove('navbar');
+    }
 }
