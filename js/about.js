@@ -8,7 +8,28 @@ for (var i=0; i<tabs.length; i++){
         }
         else if(tab == tabs[1]){
             tabs[0].classList.remove('activeTab');
+            document.getElementById("data").innerHTML = 
+            `<ul class="timeline">
+                <hr>
+                <li class="event">
+                    <div> Pursuing iMTech(CSE) at IIITB </div>
+                    <span> 1st semester GPA: 3.72/4 </span>
+                    <span> 2019 - present </span>
+                </li>
+                <hr>
+                <li class="event">
+                    <div> Graduated 12th </div>
+                    <span> Percentange: 93.67% </span>
+                    <span> 2019 </span>
+                </li>
+                <hr>
+                <li class="event">
+                    <div> Graduated 10th </div>
+                    <span> CGPA: 10/10 </span>
+                    <span> 2017 </span>
+                </li>
+                <hr>
+            </ul>`;
         }
     });
 }
-document.getElementById("data").style.borderBottom
