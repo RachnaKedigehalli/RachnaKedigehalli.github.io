@@ -53,6 +53,8 @@ ul{
 #seperating:nth-child(even){
 	width: 250px;
 }
+
+
 /*--------------------navbar------------------------*/
 nav{
 	background-color: /*#f5ece8*/ #ffffff;
@@ -124,7 +126,7 @@ nav hr{
 #about{
 	padding: 50px 0px;
 }
-#aboutMe{
+#about-me{
 	font-size: 350%;
 	margin-bottom: 20px;
 }
@@ -223,13 +225,15 @@ nav hr{
 	left: -54px;
 }
 /*----------timeline----------*/
-
 /*--------------------about------------------------*/
+
+
+/*--------------------skills------------------------*/
 #skills{
 	padding: 50px 0px 10px 0px;
 	/*background-color: #c5e5e7;*/
 }
-#skillsHeading{
+#skills-heading{
 	font-size: 350%;
 	margin-bottom: 20px;
 }
@@ -244,7 +248,7 @@ nav hr{
 	margin-bottom: 50px;
 
 }
-.areaHead{
+.area-head{
 	font-size: 200%;
 	margin-bottom: 20px;
 }
@@ -259,6 +263,18 @@ nav hr{
 	padding-top: 10px;
 }
 .icon{
-	font-size:  90px;
+	font-size: 90px;
 	color: #ffffff;
 }
+/*--------------------skills------------------------*/
+
+
+/*--------------------projects------------------------*/
+#projects{
+	padding: 50px 0px;
+}
+#projects-heading{
+	font-size: 350%;
+	margin-bottom: 20px;
+}
+/*--------------------projects------------------------*/
