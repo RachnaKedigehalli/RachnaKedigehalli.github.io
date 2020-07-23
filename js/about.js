@@ -7,9 +7,13 @@ for (var i=0; i<tabs.length; i++){
             tabs[1].classList.remove('activeTab');
             document.getElementById("data").innerHTML = 
             `<div id="abt">
-                Hello, I am Rachna S Kedigehalli, a first year Computer Science Engineering student, studying at International Instituite of Information Technology, Bangalore. I am hardworking and passionate about whatever work I do. I believe in perfection and quality in work. I am creative and have good communication and leadership skills.
-                <br><br>
-                I am proficient at coding in C and Python. I am good at algorithms and full stack web development.
+            Hello, I am Rachna S Kedigehalli, a first year Computer Science Engineering student, 
+            studying at International Instituite of Information Technology, Bangalore. 
+            I am hardworking and passionate about whatever work I do. 
+            I believe in perfection and quality in work. 
+            I am creative and have good communication and leadership skills.
+            <br><br>
+            I am proficient at coding in C and Python. I am good at algorithms and full stack web development.
             </div>`;
         }
         else if(tab == tabs[1]){
