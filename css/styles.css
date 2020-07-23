@@ -288,13 +288,6 @@ nav hr{
 	box-shadow: 0 3px 12px 0 #ebebeb;
 	transition:all 400ms ease; /*transform: */
 }
-.proj-container:nth-child(2) .project{
-	/*margin-right: 70px;*/
-/*	margin-left: 70px;*/
-}
-.proj-container:nth-child(4)>.project{
-	/*margin-right: 70px;*/
-}
 .project:hover{
 	/*cursor: pointer;*/
 	box-shadow:0px 2px 30px 0px #ced3d6;
@@ -312,23 +305,22 @@ nav hr{
 .proj-container:nth-child(2) img{
 	transform:translateY(10px);
 }
-/*.proj-container:nth-child(3) img{
-	transform:translateY(50px);
-}*/
-/*.proj-container:nth-child(4) img{
-	transform:translateY(-50px);
-}*/
 .caption{
 	/*width: 50%;
 	margin: auto;*/
-	font-size: 150%;
-	height: 80px;
+	font-size: 155%;
+	height: 120px;
 	border-radius: 0px 0px 9px 9px;
 	background-color: #b7e1e1;
 	display: flex;
   	justify-content: center; /*vertical align*/
   	align-content: center;
   	flex-direction: column;
+}
+.description{
+	font-size: 65%;
+	padding: 7px;
+	color: #808080;
 }
 /*--------------------projects------------------------*/
 
