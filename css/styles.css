@@ -348,6 +348,61 @@ nav hr{
 }
 /*--------------------contact------------------------*/
 
+@media only screen /*and (min-width: )*/ and (max-width: 1740px){
+	.project-image{
+		display: flex;
+	  	justify-content: center; /*vertical align*/
+	  	align-content: center;
+	  	flex-direction: column;
+	}
+	.caption{
+		height: 160px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 1389px){
+	#projects{
+		padding: 50px 40px 80px 40px;
+	}
+	.project{
+		margin: 0px 25px;
+	}
+	.caption{
+		height: 185px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 1176px){
+	body{
+		font-size: 90%;
+	}
+	.skill{
+		width: 170px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 1024px){
+	#container{
+		width: 65%;
+	}
+	.row{
+		overflow: hidden;	
+		width: fit-content;
+		margin: auto;
+	}
+	.row:nth-child(2) .skill{
+		margin-bottom: 20px;
+	}
+	.proj-container{
+		width: 70%;
+		margin: auto;
+		float: none;
+		margin-top: 50px;
+	}
+	.caption{
+		height: 145px;
+	}
+}
+
+/*--------------------large screens------------------------*/
+
 @media only screen and (min-width: 2004px){
 	body{
 		font-size: 110%;
