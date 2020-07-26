@@ -37,3 +37,35 @@ window.onscroll = function(){
         navbar.classList.remove('navbar');
     }
 }
+
+function activePage(index){
+    for(var i=0; i<navElements.length; i++){
+        notactive(navElements[i].getElementsByTagName('li')[0]);
+    }
+    active(navElements[index].getElementsByTagName('li')[0]);
+}
+
+
+window.onscroll = function(){
+    var home = document.getElementById('home');
+    var about = document.getElementById('about');
+    var skills = document.getElementById('skills');
+    var projects = document.getElementById('projects');
+    var contact = document.getElementById('contact');
+
+    if(scrollY+100<about.offsetTop){
+        activePage(0);
+    }
+    else if(scrollY+100<skills.offsetTop){
+        activePage(1);
+    }
+    else if(scrollY+100<projects.offsetTop){
+        activePage(2);
+    }
+    else if(scrollY+100<contact.offsetTop){
+        activePage(3);
+    }
+    else{
+        activePage(4);
+    }
+}
