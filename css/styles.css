@@ -60,14 +60,13 @@ a{
 
 /*--------------------navbar------------------------*/
 nav{
-	background-color: /*#f5ece8*/ #ffffff;
+	background-color: #ffffff;
 	height: 100px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	border-bottom: 1px solid #e4e7eb;
 	z-index: 1;
-/*	box-shadow:  0 2px 10px 0 rgba(0,0,0,0.12) ;*/
 }
 .navbar{
 	box-shadow: 3.716px 3.346px 40px 0px rgba(43,43,43,0.1);
@@ -91,7 +90,7 @@ nav a{
 	font-size: 120%;
 }
 nav li:hover{
-	background-color: /*#f5ece8*/#e1f2f2;
+	background-color: #e1f2f2;
 }
 nav hr{
 	width: 32px;
@@ -104,7 +103,7 @@ nav hr{
 /*--------------------home------------------------*/
 #home{
 	margin-top: 100px; 
-	background-color: /*#f5ece8*/#e1f2f2;
+	background-color: #e1f2f2;
 	text-align: center;
 	height: 500px;
 	padding-top: 100px;
@@ -166,7 +165,6 @@ nav hr{
 	color: #ffffff;
 }
 #data{
-	background-color: /*#e0ecde*/;
 	border:1px solid #d6d6d6;
 	border-top: none;
 	clear: both;
@@ -198,7 +196,7 @@ nav hr{
 }
 .event{
 	text-align: left;
-	margin-left: /*20%*/ 130px;
+	margin-left: 130px;
 	height: 150px;
 	position: relative;
 	display: flex;
@@ -231,7 +229,6 @@ nav hr{
 /*--------------------skills------------------------*/
 #skills{
 	padding: 50px 0px 10px 0px;
-	/*background-color: #c5e5e7;*/
 }
 #skills-heading{
 	font-size: 350%;
@@ -246,7 +243,6 @@ nav hr{
 	overflow: hidden;
 	padding: 20px;
 	margin-bottom: 50px;
-
 }
 .area-head{
 	font-size: 200%;
@@ -286,15 +282,14 @@ nav hr{
 	margin: 0px 35px;
 	border-radius: 9px;
 	box-shadow: 0 3px 12px 0 #ebebeb;
-	transition:all 400ms ease; /*transform: */
+	transition:all 400ms ease; 
 }
 .project:hover{
-	/*cursor: pointer;*/
 	box-shadow:0px 2px 30px 0px #ced3d6;
 	transform:translateY(-5px);
 }
 .project-image{
-	height: 350px;
+	height: 340px;
 	overflow: hidden;
 	/*border-bottom: 2px solid #808080;*/
 }
@@ -306,10 +301,8 @@ nav hr{
 	transform:translateY(10px);
 }
 .caption{
-	/*width: 50%;
-	margin: auto;*/
 	font-size: 155%;
-	height: 120px;
+	height: 130px;
 	border-radius: 0px 0px 9px 9px;
 	background-color: #b7e1e1;
 	display: flex;
@@ -354,3 +347,55 @@ nav hr{
 	margin-top: 30px;
 }
 /*--------------------contact------------------------*/
+
+@media only screen and (min-width: 2004px){
+	body{
+		font-size: 110%;
+	}
+}
+@media only screen and (min-width: 2260px){
+	body{
+		font-size: 115%;
+	}
+	.caption{
+		height: 140px;
+	}
+	.description{
+		font-size: 70%;
+	}
+}
+@media only screen and (min-width: 2400px){
+	.project{
+		margin: 0px 45px;
+	}
+	body{
+		font-size: 125%;
+	}
+}
+@media only screen and (min-width: 2632px){
+	body{
+		font-size: 130%;
+	}
+}
+@media only screen and (min-width: 2740px){
+	body{
+		font-size: 140%;
+	}
+	.tabs{
+		width: 190px;
+		height: 55px;
+		margin-right: 35px;
+	}
+	.area{
+		margin-bottom: 60px;
+	}
+	.project{
+		margin: 0px 60px;
+	}
+	.project-image{
+		height: 370px;
+	}
+	.caption{
+		height: 155px;
+	}
+}
