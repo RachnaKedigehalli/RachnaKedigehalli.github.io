@@ -45,4 +45,4 @@ function responsive(tablet){
 
 var tablet = window.matchMedia("(max-width: 1024px)");
 responsive(tablet);
-//tablet.addEventListener(responsive);
+tablet.addEventListener('change', responsive);

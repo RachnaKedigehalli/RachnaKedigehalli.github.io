@@ -89,7 +89,7 @@ nav a{
 	color: #000000;
 	font-size: 120%;
 }
-nav li:hover{
+nav li:focus{
 	background-color: #e1f2f2;
 }
 nav hr{
@@ -187,7 +187,7 @@ nav hr{
 	position: absolute;
 	top: 20px;
 	bottom: 20px;
-	left: /*15%*/ 100px;
+	left: 100px;
 }
 #data .timeline hr{
 	background-color: #d6d6d6;
@@ -246,6 +246,14 @@ nav hr{
 }
 .area-head{
 	font-size: 200%;
+	margin-bottom: 20px;
+}
+.row{
+	overflow: hidden;	
+	width: fit-content;
+	margin: auto;
+}
+.area:nth-child(3) .row:nth-child(2) .skill{
 	margin-bottom: 20px;
 }
 .skill{
@@ -381,14 +389,6 @@ nav hr{
 @media only screen /*and (min-width: )*/ and (max-width: 1024px){
 	#container{
 		width: 65%;
-	}
-	.row{
-		overflow: hidden;	
-		width: fit-content;
-		margin: auto;
-	}
-	.row:nth-child(2) .skill{
-		margin-bottom: 20px;
 	}
 	.proj-container{
 		width: 70%;
