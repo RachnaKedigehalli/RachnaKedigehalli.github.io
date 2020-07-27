@@ -1,0 +1,98 @@
+@media only screen /*and (min-width: )*/ and (max-width: 1740px){
+	.project-image{
+		display: flex;
+	  	justify-content: center; /*vertical align*/
+	  	align-content: center;
+	  	flex-direction: column;
+	}
+	.caption{
+		height: 160px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 1389px){
+	#projects{
+		padding: 50px 40px 80px 40px;
+	}
+	.project{
+		margin: 0px 25px;
+	}
+	.caption{
+		height: 185px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 1176px){
+	body{
+		font-size: 90%;
+	}
+	.skill{
+		width: 170px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 1024px){
+	#container{
+		width: 65%;
+	}
+	.proj-container{
+		width: 70%;
+		margin: auto;
+		float: none;
+		margin-top: 50px;
+	}
+	.caption{
+		height: 145px;
+	}
+}
+
+/*--------------------large screens------------------------*/
+
+@media only screen and (min-width: 2004px){
+	body{
+		font-size: 110%;
+	}
+}
+@media only screen and (min-width: 2260px){
+	body{
+		font-size: 115%;
+	}
+	.caption{
+		height: 140px;
+	}
+	.description{
+		font-size: 70%;
+	}
+}
+@media only screen and (min-width: 2400px){
+	.project{
+		margin: 0px 45px;
+	}
+	body{
+		font-size: 125%;
+	}
+}
+@media only screen and (min-width: 2632px){
+	body{
+		font-size: 130%;
+	}
+}
+@media only screen and (min-width: 2740px){
+	body{
+		font-size: 140%;
+	}
+	.tabs{
+		width: 190px;
+		height: 55px;
+		margin-right: 35px;
+	}
+	.area{
+		margin-bottom: 60px;
+	}
+	.project{
+		margin: 0px 60px;
+	}
+	.project-image{
+		height: 370px;
+	}
+	.caption{
+		height: 155px;
+	}
+}

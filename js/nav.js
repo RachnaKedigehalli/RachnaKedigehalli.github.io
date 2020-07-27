@@ -36,17 +36,7 @@ window.onscroll = function(){
     else{
         navbar.classList.remove('navbar');
     }
-}
-
-function activePage(index){
-    for(var i=0; i<navElements.length; i++){
-        notactive(navElements[i].getElementsByTagName('li')[0]);
-    }
-    active(navElements[index].getElementsByTagName('li')[0]);
-}
-
-
-window.onscroll = function(){
+    
     var home = document.getElementById('home');
     var about = document.getElementById('about');
     var skills = document.getElementById('skills');
@@ -68,4 +58,11 @@ window.onscroll = function(){
     else{
         activePage(4);
     }
+}
+
+function activePage(index){
+    for(var i=0; i<navElements.length; i++){
+        notactive(navElements[i].getElementsByTagName('li')[0]);
+    }
+    active(navElements[index].getElementsByTagName('li')[0]);
 }
