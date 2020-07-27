@@ -63,12 +63,29 @@
 	body{
 		font-size: 85%;
 	}
+/*--------------------home------------------------*/
 	#home{
-		height: 450px;
+		height: 415px;
 		margin-top: 60px;
 	}
+	#home img{
+		height: 225px;
+		width: 225px;
+	}
+	#home #name{
+		font-size: 275%;
+	}
+	#home span{
+		font-size: 135%;
+	}
+/*--------------------home------------------------*/
+
+/*--------------------about------------------------*/
+	#about-me{
+		font-size: 325%;
+	}
 	#container{
-		width: 75%;
+		width: 80%;
 	}
 	.tabs{
 		height: 40px;
@@ -77,8 +94,25 @@
 		width: 120px;
 	}
 	#abt{
-		font-size: 140%;
+		font-size: 125%;
+		width: 85%;
+		padding: 40px 0px;
 	}
+	.timeline::before{
+		left: 50px;
+	}
+	#data .timeline hr{
+		margin-left: 45px;
+	}
+	.event{
+		margin-left: 60px;
+	}
+	.event::before{
+		left: -33px;
+	}
+/*--------------------about------------------------*/
+
+/*--------------------skills------------------------*/
 	.skill{
 		width: 120px;
 		height: 110px;
@@ -87,6 +121,14 @@
 	.icon{
 		font-size: 75px;
 	}
+/*--------------------skills------------------------*/
+
+/*--------------------contact------------------------*/
+#contact{
+	padding-top: 25px;
+}
+/*--------------------contact------------------------*/
+
 }
 /*--------------------large screens------------------------*/
 
