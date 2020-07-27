@@ -60,7 +60,33 @@
 	}
 }
 @media only screen /*and (min-width: )*/ and (max-width: 640px){
-
+	body{
+		font-size: 85%;
+	}
+	#home{
+		height: 450px;
+		margin-top: 60px;
+	}
+	#container{
+		width: 75%;
+	}
+	.tabs{
+		height: 40px;
+		margin-right: 15px;
+		font-size: 110%;
+		width: 120px;
+	}
+	#abt{
+		font-size: 140%;
+	}
+	.skill{
+		width: 120px;
+		height: 110px;
+		/*margin: 0px 6px;*/
+	}
+	.icon{
+		font-size: 75px;
+	}
 }
 /*--------------------large screens------------------------*/
 

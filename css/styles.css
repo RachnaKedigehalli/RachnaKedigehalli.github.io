@@ -151,7 +151,7 @@ nav hr{
 	border:1px solid #d6d6d6;
 	border-bottom: none;
 	display: flex;
-  	justify-content: center;
+  	justify-content: center;  /*vertical align*/
   	align-content: center;
   	flex-direction: column;
 	float: left;
