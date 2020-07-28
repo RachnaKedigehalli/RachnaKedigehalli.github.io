@@ -67,8 +67,11 @@
 	nav{
 		display: none;
 	}
-	.menu-button{
+	.menu{
 		display: block;
+	}
+	.menu-dropdown{
+		font-size: 125%;
 	}
 	/*--------------------navbar------------------------*/
 	/*--------------------home------------------------*/
