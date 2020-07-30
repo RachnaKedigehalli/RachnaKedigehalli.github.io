@@ -64,8 +64,10 @@
 		font-size: 85%;
 	}
 	.show{
-	display: block;
-}
+		display: block;
+		/*transform: translate(4px, 6px);*/
+		/*transition: transform 2s ease-in;*/
+	}
 	/*--------------------navbar------------------------*/
 	nav{
 		display: none;

@@ -97,14 +97,6 @@ nav hr{
 	margin-top: 5px;
 	align-self: center;
 }
-.menu{
-	display: none;
-	position: fixed;
-	right: 0;
-	background-color: #56b9b8;
-	border-radius: 0px 0px 0px 100%;
-/*	transition: all 2s ease;
-*/}
 .menu-button{
 	display: none;
 	float: right;
@@ -117,6 +109,37 @@ nav hr{
 	width: 22px;
 	margin: 5px;
 	border-radius: 30%;
+}
+@keyframes slide-in{
+	from{
+		top: -225px;
+		right: -225px;
+	}
+	to{
+		top: 0;
+		right: 0;
+	}
+}
+@keyframes slide-out{
+	from{
+		top: 0;
+		right: 0;
+	}
+	to{
+		top: -225px;
+		right: -225px;
+	}
+}
+.menu{
+	display: none;
+	position: fixed;
+	right: 0;
+	background-color: #56b9b8;
+	border-radius: 0px 0px 0px 100%;
+	animation-name: slide-in;
+	animation-duration: 500ms;
+	/*transform: translate(4px, 6px);*/
+	/*transition: transform 2s ease-in;*/
 }
 .cross{
 	float: right;
@@ -131,10 +154,10 @@ nav hr{
 	border-radius: 30%;
 }
 .cross-line:nth-child(1){
-	transform:  translate(0px, 4px) rotate(45deg);
+	transform:  translate(0px, 7px) rotate(45deg);
 }
 .cross-line:nth-child(2){
-	transform: translate(0px, -4px) rotate(-45deg);
+	transform: translate(0px, -1px) rotate(-45deg);
 }
 .menu-dropdown{
 	float: right;
@@ -344,8 +367,8 @@ nav hr{
 	transition:all 400ms ease; 
 }
 .project:hover{
-	box-shadow:0px 2px 30px 0px #ced3d6;
-	transform:translateY(-5px);
+	box-shadow: 0px 2px 30px 0px #ced3d6;
+	transform: translateY(-5px);
 }
 .project-image{
 	height: 340px;
@@ -357,7 +380,7 @@ nav hr{
 	max-height: 100%;
 }
 .proj-container:nth-child(2) img{
-	transform:translateY(10px);
+	transform: translateY(10px);
 }
 .caption{
 	font-size: 155%;
