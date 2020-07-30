@@ -166,7 +166,7 @@
 		padding-top: 40px;
 	}
 	.skill{
-		width: 100px;
+		width: 102px;
 		height: 90px;
 	}
 	.icon{
@@ -183,9 +183,15 @@
 	}
 }
 @media only screen /*and (min-width: )*/ and (max-width: 454px){
+	#seperating{
+		width: 270px;
+	}
+	#seperating:nth-child(even){
+		width: 200px;
+	}
 	.skill{
-		width: 90px;
-		height: 80px;
+		width: 97px;
+		height: 85px;
 		margin-left: 5px;
 		margin-right: 5px;
 	}
@@ -201,8 +207,17 @@
 	}
 }
 @media only screen /*and (min-width: )*/ and (max-width: 382px){
+	#seperating{
+		width: 250px;
+	}
+	#seperating:nth-child(even){
+		width: 190px;
+	}
 	#home{
 		height: 450px;
+	}
+	.caption{
+		height: 160px;
 	}
 }
 /*561px*/
