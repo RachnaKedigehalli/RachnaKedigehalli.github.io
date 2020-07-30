@@ -63,11 +63,17 @@
 	body{
 		font-size: 85%;
 	}
+	.show{
+	display: block;
+}
 	/*--------------------navbar------------------------*/
 	nav{
 		display: none;
 	}
-	.menu{
+	/*.menu{
+		display: block;
+	}*/
+	.menu-button{
 		display: block;
 	}
 	.menu-dropdown{
