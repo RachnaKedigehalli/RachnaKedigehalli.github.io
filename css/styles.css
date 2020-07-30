@@ -1,10 +1,7 @@
 *{
 	margin: 0;
 }
-@font-face{
-	font-family: Brown;
-	src: url('../fonts/Brown-Font/BrownMedium Regular.ttf') ;
-}
+
 @font-face{
 	font-family:'Jim Sans Light';
 	src:url('../fonts/Jim-sans/jim-sans-light.woff2') format("woff2");
@@ -25,7 +22,6 @@
 	font-style:normal;
 	font-display:block;
 }
-
 
 body{
 	font-family: "Jim Sans Regular", Helvetica;
