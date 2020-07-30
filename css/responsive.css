@@ -65,16 +65,11 @@
 	}
 	.show{
 		display: block;
-		/*transform: translate(4px, 6px);*/
-		/*transition: transform 2s ease-in;*/
 	}
 	/*--------------------navbar------------------------*/
 	nav{
 		display: none;
 	}
-	/*.menu{
-		display: block;
-	}*/
 	.menu-button{
 		display: block;
 	}
@@ -140,6 +135,9 @@
 		height: 110px;
 		/*margin: 0px 6px;*/
 	}
+	.area-head{
+		font-size: 175%;
+	}
 	.icon{
 		font-size: 75px;
 	}
@@ -163,6 +161,48 @@
 @media only screen /*and (min-width: )*/ and (max-width: 562px){
 	#home{
 		height: 415px;
+	}
+	#skills{
+		padding-top: 40px;
+	}
+	.skill{
+		width: 100px;
+		height: 90px;
+	}
+	.icon{
+		font-size: 65px;
+	}
+	#projects{
+		padding: 40px 20px 60px 20px;
+	}
+	.proj-container{
+		width: 90%;
+	}
+	#contact{
+		font-size: 90%;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 454px){
+	.skill{
+		width: 90px;
+		height: 80px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.icon{
+		font-size: 50px;
+	}
+	#projects-heading{
+		margin-bottom: 30px;
+	}
+	.proj-container{
+		width: 100%;
+		margin-top: 30px;
+	}
+}
+@media only screen /*and (min-width: )*/ and (max-width: 382px){
+	#home{
+		height: 450px;
 	}
 }
 /*561px*/
