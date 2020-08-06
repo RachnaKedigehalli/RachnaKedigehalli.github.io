@@ -23,7 +23,7 @@ for (var i=0; i<tabs.length; i++){
                 <hr>
                 <li class="event">
                     <div> Pursuing iMTech(CSE) at IIITB </div>
-                    <span> 1st semester GPA: 3.72/4 </span>
+                    <span> CGPA: 3.84/4.00 </span>
                     <span> 2019 - present </span>
                 </li>
                 <hr>
