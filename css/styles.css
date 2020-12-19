@@ -84,6 +84,7 @@ nav hr{
 	width: 32px;
 	margin-top: 5px;
 	align-self: center;
+	border: 1px solid #000000;
 }
 .menu-button{
 	display: none;
@@ -338,12 +339,18 @@ nav hr{
 
 /*--------------------projects------------------------*/
 #projects{
-	padding: 50px 60px 80px 60px;
+	padding: 50px 60px 30px 60px;
 	overflow: hidden;
 }
 #projects-heading{
 	font-size: 350%;
 	margin-bottom: 40px;
+}
+.projects-row{
+	text-align: center;
+  	display:flex;
+  	justify-content:center;
+  	margin: 55px 0;
 }
 .proj-container{
 	width: 33.33%;
@@ -360,7 +367,7 @@ nav hr{
 	transform: translateY(-5px);
 }
 .project-image{
-	height: 340px;
+	height: 320px;
 	overflow: hidden;
 }
 .project-image img{
@@ -368,7 +375,10 @@ nav hr{
 	max-height: 100%;
 }
 .proj-container:nth-child(2) img{
-	transform: translateY(10px);
+	transform: translateY(5px);
+}
+.proj-container:nth-child(3) img{
+	transform: translateY(40px);
 }
 .caption{
 	font-size: 155%;
