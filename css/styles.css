@@ -316,7 +316,7 @@ nav hr{
 	width: fit-content;
 	margin: auto;
 }
-.area:nth-child(3) .row:nth-child(2) .skill{
+.row:nth-child(2) .skill{
 	margin-bottom: 20px;
 }
 .skill{
