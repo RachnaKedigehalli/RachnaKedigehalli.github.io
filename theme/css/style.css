@@ -480,6 +480,14 @@ textarea.form-control {
   z-index: 2;
 }
 
+/* custom */
+.hero-area h3 {
+  position: relative;
+  z-index: 2;
+  color: #EBE9F7;
+}
+/* custom */
+
 .layer {
   position: absolute;
   z-index: 1;
