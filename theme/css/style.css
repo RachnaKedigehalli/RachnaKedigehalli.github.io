@@ -486,6 +486,9 @@ textarea.form-control {
   z-index: 2;
   color: #EBE9F7;
 }
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
 /* custom */
 
 .layer {
