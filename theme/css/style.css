@@ -489,6 +489,12 @@ textarea.form-control {
 .justify-content-evenly {
   justify-content: space-evenly;
 }
+.hover-content p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'BwNistaInt-xBd';
+}
 /* custom */
 
 .layer {
